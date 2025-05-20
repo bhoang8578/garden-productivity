@@ -2,9 +2,9 @@
 desktop app
 
 using tauri + react + javascript
-- made a switch from electron to tauri because I found that it takes up less
-- space and has better performance than electron, which is typically used for
-- web-based environments and I wanted to try something new with a desktop
+   made a switch from electron to tauri because I found that it takes up less
+   space and has better performance than electron, which is typically used for
+   web-based environments and I wanted to try something new with a desktop app
 
 commands to run:
 npm run build  -> build the front end React component
@@ -13,6 +13,7 @@ cargo tauri build  -> handles the backend & system that makes it a desktop app
 sources:
 YouTube: 
 https://www.youtube.com/watch?v=BbZmLXBDGnU&t=52s
+https://www.youtube.com/watch?v=oTIJunBa6MA
 Google: 
 https://v1.tauri.app/v1/guides/getting-started/prerequisites
 
@@ -35,3 +36,11 @@ process:
     time. After cleaning out the repository, I installed the Tauri packages and
     reinstalled React. I also had to install the C++ development tool for my
     VS Code IDE. I ran all of the commands in Git Bash.
+5/19/2025
+    Today, I started coding the HTML skeleton based off of my Figma prototype.
+    But as I was doing this, I realized that when I restarted and cleaned out
+    the repository, I also DELETED all of the asset files that I spent so much
+    time on... I still have hope that in some way they will be recovered, or
+    eventually will be re-done. Besides HTML coding, I also learned how to use
+    the React Router and how it'll work with the functionality of the app I
+    have in mind. 
