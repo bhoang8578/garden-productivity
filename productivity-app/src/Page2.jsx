@@ -10,10 +10,10 @@ function Page2 () {
             //back button
             <button></button>
             //from top left to bottom right
-            <button>task<br/>timer</button>
-            <button>today's<br/>schedule</button>
-            <button>to-do<br/>checklist</button>
-            <button>mood<br/>mood tracker</button>
+            <button id = "button1">task<br/>timer</button>
+            <button id = "button2">today's<br/>schedule</button>
+            <button id = "button3">to-do<br/>checklist</button>
+            <button id = "button4">mood<br/>mood tracker</button>
         </div>
     </>
     )

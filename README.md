@@ -44,3 +44,11 @@ process:
     eventually will be re-done. Besides HTML coding, I also learned how to use
     the React Router and how it'll work with the functionality of the app I
     have in mind. 
+5/22/2025
+    I didn't make a lot of progress, i Just added more HTML code in the layout.
+    Also had to fix how I've been making comments. I tried running to test the
+    app and that's where I ran into a lot of problems. I tried debugging it for
+    some time, and to open the app, I manually went inside the files folder and
+    looked for it in src-tauri/target/release path and the window was just blank.
+    Don't know what exactly I'm doing wrong, but hopefully I'll figure it out
+    tomorrow.

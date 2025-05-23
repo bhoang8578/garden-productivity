@@ -4,10 +4,12 @@ import {Outlet} from 'react-router-dom'
 export default function Layout() {
     return (
     <>
-      <div class = "top">
-        <h3>DAILY GROWTH</h3>
-        //have the icons for the exit, expand, minimize
-        //<ul></ul>
+      <div className = "topBar">
+          <h3 id = "title">DAILY GROWTH</h3>
+              <div className = "windowControls">
+                  <img src = "./assets/minimize-button.png" alt = "minimize" onClick = {handleMinimize}/>
+                  <img src = "./asset/exit-button.png" alt = "close" onClick = {handleClose}/>
+              </div>
       </div>
         //this part is what is going to be changing
         <Outlet/>
