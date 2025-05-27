@@ -5,13 +5,13 @@ import App from './App.jsx'
 //by referencing dependencies installed in the command line
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {BrowserRouter} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 
 
-createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowerRouter>
+    <HashRouter>
     <App/>
-    </BrowerRouter>
+    </HashRouter>
   </React.StrictMode>
 )

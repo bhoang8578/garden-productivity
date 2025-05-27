@@ -10,8 +10,8 @@ import Page5 from './Page5.jsx'
 import Page6 from './Page6.jsx'
 import Page7 from './Page7.jsx'
 import Page8 from './Page8.jsx'
-import Layout from './Layout.jsx'
 */}
+import Layout from './Layout.jsx'
 function App() {
 
   return (
@@ -20,6 +20,7 @@ function App() {
     <Routes>
       <Route path = "/" element = {<Layout/>}>
       <Route index element = {<Homepage/>}/>
+      {/*
       <Route path = "/page2" element = {<Page2/>}/>
       <Route path = "/page3" element = {<Page3/>}/>
       <Route path = "/page4" element = {<Page4/>}/>
@@ -27,6 +28,7 @@ function App() {
       <Route path = "/page6" element = {<Page6/>}/>
       <Route path = "/page7" element = {<Page7/>}/>
       <Route path = "/page8" element = {<Page8/>}/>
+      */}
       </Route>
     </Routes>
   )
